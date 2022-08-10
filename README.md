@@ -1,29 +1,18 @@
-# Testes automatizados com Cypress - Básico
+cypress-basic
+Projeto de apredizado que contem todos os exercicios contruídos ao decorrer do curso.
 
-👋 Seja bem-vindo(a)!
+Pré-requisitos
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+É necessário ter instalado na máquina o Node.js e npm para executar o projeto.
 
-## O que você vai aprender
+Na construção do projeto foi utilizado as versões v16.13.2 and 8.1.2 of Node.js and npm, respectivamente.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+Instalação
+Executo o comando npm install para baixar todas as dependencias.
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+Testes
+Nota: arquivos que usaram credenciais foram configurados no arquivo .gitignore para que fique mascarado esses dados sensiveis no momento de deploy.
 
-## Vamos começar?
+Para executar os teste use o cy:open para abrir a interface do cypress, para o modo headless use o comando cy:open:headless e também foi configurado comandos para executar no modo viewport simulando dispositivos mobile, use cy:open:mobile para abrir a interface do cypress simulando o mobile com resolução 410*860 e no modo headless cy:open:headless:mobile.
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
-
-___
-
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Esse projeto foi criado por Manuela Bole 💚
