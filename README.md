@@ -1,16 +1,16 @@
-#cypress-basic
+# cypress-basic
 
 Projeto de apredizado que contem todos os exercicios contruídos ao decorrer do curso.
 
-##Pré-requisitos
+## Pré-requisitos
 
 É necessário ter instalado na máquina o Node.js e npm para executar o projeto.
 Na construção do projeto foi utilizado as versões v16.13.2 and 8.1.2 of Node.js and npm, respectivamente.
 
-##Instalação
+## Instalação
 Executo o comando npm install para baixar todas as dependencias.
 
-##Testes
+## Testes
 
 **Nota:** arquivos que usaram credenciais foram configurados no arquivo .gitignore para que fique mascarado esses dados sensiveis no momento de deploy.
 
